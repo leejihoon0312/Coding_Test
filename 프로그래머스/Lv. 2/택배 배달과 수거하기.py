@@ -36,5 +36,4 @@ def solution(cap, n, deliveries, pickups):
                 else:
                     pickups[-idx] -= cap
                     pickuped = 0
-
     return answer
